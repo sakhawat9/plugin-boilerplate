@@ -1,0 +1,67 @@
+/**
+ * 04. Widget
+ */
+.plugin-boilerplate-widgets{
+
+  > .plugin-boilerplate-field{
+    position: relative;
+    top: -1px;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 12px 15px;
+
+    .plugin-boilerplate-title{
+      float: none;
+      width: 100%;
+      margin-bottom: 5px;
+    }
+
+    .plugin-boilerplate-fieldset{
+      float: none;
+      width: 100%;
+    }
+  }
+
+  .plugin-boilerplate-field-text input{
+    width: 100%;
+  }
+
+  .plugin-boilerplate-field-notice .plugin-boilerplate-notice{
+    padding: 15px;
+  }
+}
+
+.control-section{
+
+  .plugin-boilerplate-widgets{
+
+    > .plugin-boilerplate-field{
+      margin-left: -10px;
+      margin-right: -10px;
+      padding: 10px 12px;
+    }
+  }
+}
+
+.wp-block{
+
+  .plugin-boilerplate-widgets{
+    font-size: 13px;
+
+    > .plugin-boilerplate-field{
+      margin-left: -10px;
+      margin-right: -10px;
+
+      .button-primary{
+        color: #fff;
+      }
+
+      > .plugin-boilerplate-title{
+
+        > h4{
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}

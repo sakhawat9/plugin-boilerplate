@@ -1,0 +1,590 @@
+/**
+ *
+ * ---------------------------------------------------------
+ * CODESTAR FRAMEWORK RTL CSS MAP
+ * ---------------------------------------------------------
+ *
+ * 01. Base
+ *     01. 01. Header
+ *     01. 02. Header Buttons
+ *     01. 03. Navigation
+ *     01. 04. Content
+ *     01. 05. Section
+ *     01. 06. Show All Settings
+ *     01. 07. Search Input
+ *     01. 08. Copyright
+ *     01. 09. Metabox
+ * 02. Fields
+ *     02. 01. Field: typography
+ *     02. 02. Field: checkbox, radio
+ *     02. 03. Field: switcher
+ *     02. 04. Field: upload
+ *     02. 05. Field: group
+ *     02. 06. Field: repeater
+ *     02. 07. Field: help
+ *     02. 08. Field: icon
+ *     02. 09. Field: gallery
+ *     02. 10. Field: sorter
+ *     02. 11. Field: tabbed
+ *     02. 12. Field: media
+ *     02. 13. Field: notice
+ *     02. 14. Field: border, spacing, dimensions
+ *     02. 15. Field: background
+ *     02. 16. Field: spinner
+ *     02. 17. Field: slider
+ *     02. 18. Field: button_set
+ *     02. 19. Field: link_color
+ *     02. 20. Field: color_group
+ *     02. 21. Field: palette
+ *     02. 22. Field: accordion
+ *     02. 23. Field: date
+ *     02. 24. Field: map
+ *     02. 25. Field: sortable
+ *     02. 26. Field: number
+ * 03. Taxonomy
+ * 04. Profile
+ * 05. Nav Menu
+ * 06. Modal
+ * 07. Customizer
+ * 08. Responsive
+ * 09. Others
+ *
+ * ---------------------------------------------------------
+ *
+ */
+/**
+ * 01. Base
+ */
+.plugin-boilerplate-options {
+  margin-left: 20px;
+  margin-right: 0;
+}
+
+/**
+ * 01. 01. Header
+ */
+.plugin-boilerplate-header h1 {
+  float: right;
+}
+.plugin-boilerplate-header fieldset {
+  float: left;
+}
+
+/**
+ * 01. 02. Header Buttons
+ */
+.plugin-boilerplate-buttons {
+  float: left;
+  direction: ltr;
+}
+
+.plugin-boilerplate-header-left {
+  float: right;
+}
+
+.plugin-boilerplate-header-right {
+  float: left;
+}
+
+/**
+ * 01. 03. Navigation
+ */
+.plugin-boilerplate-nav {
+  float: right;
+}
+.plugin-boilerplate-nav ul {
+  clear: right;
+}
+.plugin-boilerplate-nav ul li .plugin-boilerplate-active:after {
+  right: auto;
+  left: 0;
+  border-left-color: #fff;
+  border-right-color: transparent;
+}
+.plugin-boilerplate-nav ul li .plugin-boilerplate-arrow:after {
+  content: "\f053";
+  right: auto;
+  left: 10px;
+}
+.plugin-boilerplate-nav ul li.plugin-boilerplate-tab-expanded .plugin-boilerplate-arrow:after {
+  transform: rotate(-90deg);
+}
+.plugin-boilerplate-nav ul ul li a {
+  padding-right: 25px;
+  padding-left: 15px;
+}
+.plugin-boilerplate-nav ul ul:before {
+  left: auto;
+  right: 15px;
+}
+.plugin-boilerplate-nav .plugin-boilerplate-tab-icon {
+  margin-left: 5px;
+  margin-right: 0;
+}
+
+.plugin-boilerplate-nav-background {
+  left: auto;
+  right: 0;
+}
+
+/**
+ * 01. 04. Content
+ */
+.plugin-boilerplate-content {
+  margin-left: 0;
+  margin-right: 225px;
+}
+
+/**
+ * 01. 05. Section
+ */
+.plugin-boilerplate-sections {
+  float: right;
+}
+
+/**
+ * 01. 06. Show all options
+ */
+.plugin-boilerplate-show-all .plugin-boilerplate-content {
+  margin-right: 0;
+  overflow: hidden;
+}
+
+.plugin-boilerplate-expand-all {
+  float: right;
+  right: auto;
+  left: 40px;
+  margin-right: 0;
+  margin-left: 4px;
+}
+
+/**
+ * 01. 07. Search Input
+ */
+.plugin-boilerplate-search {
+  float: right;
+}
+.plugin-boilerplate-search input {
+  margin: 0 0 0 5px;
+}
+
+/**
+ * 01. 08. Copyright
+ */
+.plugin-boilerplate-copyright {
+  float: right;
+}
+
+/**
+ * 01. 09. Metabox
+ */
+.plugin-boilerplate-metabox {
+  margin: -6px -12px -12px -12px;
+}
+.plugin-boilerplate-metabox .plugin-boilerplate-section-title {
+  padding: 20px;
+}
+
+.plugin-boilerplate-section-title .plugin-boilerplate-section-icon {
+  margin-left: 5px;
+  margin-right: 0;
+}
+
+/**
+ * 02. Fields
+ */
+.plugin-boilerplate-field .plugin-boilerplate-title {
+  float: right;
+}
+.plugin-boilerplate-field .plugin-boilerplate-fieldset {
+  float: left;
+}
+
+.plugin-boilerplate-pseudo-field {
+  padding: 0 0 0 5px !important;
+}
+
+/**
+ * 02. 01. Field: typography
+ */
+.plugin-boilerplate-field-typography select {
+  margin: 0;
+  width: 100%;
+}
+.plugin-boilerplate-field-typography .plugin-boilerplate--blocks-inputs .plugin-boilerplate--blocks {
+  flex-direction: row-reverse;
+}
+.plugin-boilerplate-field-typography .plugin-boilerplate--unit {
+  left: 4px;
+  right: auto;
+}
+
+/**
+ * 02. 02. Field: checkbox, radio
+ */
+.plugin-boilerplate-field-checkbox ul ul li,
+.plugin-boilerplate-field-radio ul ul li {
+  margin-left: 0;
+  margin-right: 8px;
+}
+.plugin-boilerplate-field-checkbox ul ul li:first-child,
+.plugin-boilerplate-field-radio ul ul li:first-child {
+  margin-right: 0;
+}
+.plugin-boilerplate-field-checkbox .plugin-boilerplate--inline-list li,
+.plugin-boilerplate-field-radio .plugin-boilerplate--inline-list li {
+  margin-right: 0;
+  margin-left: 15px;
+}
+.plugin-boilerplate-field-checkbox .plugin-boilerplate--text,
+.plugin-boilerplate-field-radio .plugin-boilerplate--text {
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+/**
+ * 02. 03. Field: switcher
+ */
+.plugin-boilerplate-field-switcher .plugin-boilerplate--switcher {
+  float: right;
+}
+.plugin-boilerplate-field-switcher .plugin-boilerplate--label {
+  float: right;
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+/**
+ * 02. 04. Field: upload
+ */
+.plugin-boilerplate-field-upload .plugin-boilerplate--remove,
+.plugin-boilerplate-field-upload .plugin-boilerplate--button {
+  margin-left: 0;
+  margin-right: 5px;
+}
+
+/**
+ * 02. 05. Field: group
+ */
+.plugin-boilerplate-field-group .plugin-boilerplate-cloneable-title {
+  padding: 15px 10px 15px 65px;
+}
+.plugin-boilerplate-field-group .plugin-boilerplate-cloneable-helper {
+  right: auto;
+  left: 10px;
+}
+
+/**
+ * 02. 06. Field: repeater
+ */
+.plugin-boilerplate-field-repeater .plugin-boilerplate-repeater-helper {
+  border-left: 0;
+  border-right: 1px solid #eee;
+}
+
+/**
+ * 02. 07. Field: help
+ */
+.plugin-boilerplate-help {
+  right: auto;
+  left: 5px;
+}
+
+/**
+ * 02. 08. Field: icon
+ */
+.plugin-boilerplate-field-icon .button {
+  margin-right: 0;
+  margin-left: 5px;
+}
+.plugin-boilerplate-field-icon .plugin-boilerplate-icon-preview i {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+/**
+ * 02. 09. Field: gallery
+ */
+.plugin-boilerplate-field-gallery ul li {
+  margin-right: 0;
+  margin-left: 5px;
+}
+.plugin-boilerplate-field-gallery .button {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+/**
+ * 02. 11. Field: tabbed
+ */
+.plugin-boilerplate-field-tabbed .plugin-boilerplate-tabbed-nav .plugin-boilerplate--icon {
+  padding-right: 0;
+  padding-left: 5px;
+}
+.plugin-boilerplate-field-tabbed .plugin-boilerplate-tabbed-nav a {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+/**
+ * 02. 12. Field: media
+ */
+.plugin-boilerplate-field-media .button {
+  margin-left: 0;
+  margin-right: 7px;
+}
+.plugin-boilerplate-field-media .hidden + .button {
+  margin-right: 0;
+}
+
+/**
+ * 02. 13. Field: notice
+ */
+.plugin-boilerplate-notice {
+  border-left: none;
+  border-right-style: solid;
+  border-right-width: 4px;
+}
+
+/**
+ * 02. 14. Field: border, spacing, dimensions
+ */
+.plugin-boilerplate-field-dimensions .plugin-boilerplate--input,
+.plugin-boilerplate-field-dimensions .plugin-boilerplate-fieldset,
+.plugin-boilerplate-field-spacing .plugin-boilerplate--input,
+.plugin-boilerplate-field-spacing .plugin-boilerplate-fieldset,
+.plugin-boilerplate-field-border .plugin-boilerplate--input,
+.plugin-boilerplate-field-border .plugin-boilerplate-fieldset {
+  direction: ltr;
+}
+.plugin-boilerplate-field-dimensions .plugin-boilerplate--inputs,
+.plugin-boilerplate-field-dimensions .plugin-boilerplate--color,
+.plugin-boilerplate-field-spacing .plugin-boilerplate--inputs,
+.plugin-boilerplate-field-spacing .plugin-boilerplate--color,
+.plugin-boilerplate-field-border .plugin-boilerplate--inputs,
+.plugin-boilerplate-field-border .plugin-boilerplate--color {
+  float: right;
+}
+.plugin-boilerplate-field-dimensions .plugin-boilerplate--color,
+.plugin-boilerplate-field-spacing .plugin-boilerplate--color,
+.plugin-boilerplate-field-border .plugin-boilerplate--color {
+  margin-right: 4px;
+  direction: rtl;
+}
+
+/**
+ * 02. 15. Field: background
+ */
+.plugin-boilerplate-field-background .plugin-boilerplate--block {
+  float: right;
+}
+.plugin-boilerplate-field-background .plugin-boilerplate--select,
+.plugin-boilerplate-field-background .plugin-boilerplate--media {
+  padding-right: 0;
+}
+.plugin-boilerplate-field-background .plugin-boilerplate--title {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+/**
+ * 02. 16. Field: spinner
+ */
+.plugin-boilerplate-field-spinner .plugin-boilerplate--spin {
+  float: right;
+  direction: ltr;
+}
+
+/**
+ * 02. 17. Field: slider
+ */
+.plugin-boilerplate-field-slider .plugin-boilerplate-slider-ui {
+  direction: ltr;
+  margin-right: 0;
+  margin-left: 15px;
+}
+.plugin-boilerplate-field-slider .plugin-boilerplate--input {
+  direction: ltr;
+}
+
+/**
+ * 02. 18. Field: button_set
+ */
+.plugin-boilerplate-field-button_set .plugin-boilerplate--button-group {
+  float: right;
+}
+
+/**
+ * 02. 19. Field: link_color
+ */
+.plugin-boilerplate-field-link_color .plugin-boilerplate--left {
+  float: right;
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+/**
+ * 02. 20. Field: color_group
+ */
+.plugin-boilerplate-field-color_group .plugin-boilerplate--left {
+  float: right;
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+/**
+ * 02. 21. Field: palette
+ */
+.plugin-boilerplate-field-palette .plugin-boilerplate--palette {
+  margin-right: 0;
+  margin-left: 10px;
+}
+
+/**
+ * 02. 22. Field: accordion
+ */
+.plugin-boilerplate-field-accordion .plugin-boilerplate--icon {
+  margin-right: 0;
+  margin-left: 2px;
+}
+
+/**
+ * 02. 23. Field: date
+ */
+.plugin-boilerplate-field-date .plugin-boilerplate--to {
+  margin-left: 0;
+  margin-right: 7px;
+}
+
+/**
+ * 02. 24. Field: map
+ */
+.plugin-boilerplate-field-map .plugin-boilerplate--map-input:last-child {
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+/**
+ * 02. 25. Field: sortable
+ */
+.plugin-boilerplate-field-sortable .plugin-boilerplate-sortable-helper {
+  border-left: none;
+  border-right: 1px solid #eee;
+}
+
+/**
+ * 02. 26. Field: number
+ */
+.plugin-boilerplate-field-number .plugin-boilerplate--wrap {
+  float: right;
+}
+.plugin-boilerplate-field-number .plugin-boilerplate--unit {
+  left: 4px;
+  right: auto;
+}
+
+/**
+ * 03. Taxonomy
+ */
+.plugin-boilerplate-taxonomy-add-fields {
+  margin-right: 0;
+  margin-left: 30px;
+}
+.plugin-boilerplate-taxonomy-add-fields .plugin-boilerplate-field > .plugin-boilerplate-fieldset > .plugin-boilerplate-help {
+  left: -5px;
+  right: auto;
+}
+
+.plugin-boilerplate-taxonomy-edit-fields {
+  margin-right: 0;
+  margin-left: 35px;
+}
+.plugin-boilerplate-taxonomy-edit-fields .plugin-boilerplate-field > .plugin-boilerplate-fieldset > .plugin-boilerplate-help {
+  right: auto;
+  left: -5px;
+}
+
+/**
+ * 04. Profile
+ */
+.plugin-boilerplate-profile-options > h2 > .fa {
+  padding-right: 0;
+  padding-left: 7px;
+}
+.plugin-boilerplate-profile-options > .plugin-boilerplate-field > .plugin-boilerplate-fieldset > .plugin-boilerplate-help {
+  left: -5px;
+  right: auto;
+}
+
+/**
+ * 05. Nav Menu
+ */
+.plugin-boilerplate-nav-menu-options > .plugin-boilerplate-fields {
+  margin-left: 0;
+  margin-right: -10px;
+}
+
+.plugin-boilerplate-nav-menu-title {
+  padding-left: 14px;
+  padding-right: 12px;
+}
+
+.plugin-boilerplate-nav-menu-icon {
+  margin-right: 0;
+  margin-left: 5px;
+}
+
+/**
+ * 06. Modal
+ */
+.plugin-boilerplate-modal-content .plugin-boilerplate-field {
+  padding: 15px 15px 15px 30px;
+}
+
+.plugin-boilerplate-modal-title {
+  padding: 0 16px 0 36px;
+}
+
+.plugin-boilerplate-modal-close {
+  right: auto;
+  left: 0;
+}
+
+/**
+ * 07. Customizer
+ */
+.control-section .plugin-boilerplate-field .plugin-boilerplate-fieldset {
+  margin-right: 0;
+}
+
+/**
+ * 08. Responsive
+ */
+@media only screen and (max-width: 1200px) {
+  .plugin-boilerplate-metabox .plugin-boilerplate-field .plugin-boilerplate-fieldset {
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 782px) {
+  .PLUGIN_BOILERPLATE .plugin-boilerplate-fieldset,
+  .PLUGIN_BOILERPLATE .plugin-boilerplate-content {
+    margin-right: 0;
+  }
+}
+/**
+ * 09. Others
+ */
+.plugin-boilerplate-field .plugin-boilerplate--transparent-slider {
+  margin-left: 0;
+  margin-right: 2px;
+}
+.plugin-boilerplate-field .plugin-boilerplate--transparent-slider .ui-slider-handle {
+  margin: 0 -11px;
+}
+.plugin-boilerplate-field .plugin-boilerplate--transparent-offset {
+  background-position: center right;
+}
+.plugin-boilerplate-field .plugin-boilerplate--transparent-text {
+  right: auto;
+  left: 10px;
+}

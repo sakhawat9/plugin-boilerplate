@@ -1,0 +1,114 @@
+/**
+ * 06. Taxonomy
+ */
+.plugin-boilerplate-taxonomy{
+  max-width: 95%;
+
+  > .plugin-boilerplate-field{
+    border-top: none !important;
+  }
+
+  > .plugin-boilerplate-field-heading{
+    font-size: 1.1em;
+    padding: 20px !important;
+    border: 1px solid #ddd;
+  }
+
+  > .plugin-boilerplate-field-subheading{
+    font-size: 12px;
+    padding: 15px !important;
+    border: 1px solid #ddd;
+  }
+
+  > .plugin-boilerplate-field-submessage{
+
+    .plugin-boilerplate-submessage{
+      padding: 15px;
+      border-left-width: 1px;
+      border-left-style: solid;
+      border-right-width: 1px;
+      border-right-style: solid;
+    }
+  }
+
+  > .plugin-boilerplate-field-notice{
+    background-color: transparent;
+  }
+
+  .plugin-boilerplate-section-title{
+    display: block;
+    padding: 15px ;
+    background-color: #f9f9f9;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.04);
+  }
+}
+
+.plugin-boilerplate-taxonomy-add-fields{
+
+  > .plugin-boilerplate-field{
+    padding: 8px 0;
+
+    > .plugin-boilerplate-title{
+      float: none;
+      width: 100%;
+      padding: 2px 2px 4px 0;
+
+      h4{
+        font-size: 12px;
+        font-weight: normal;
+      }
+    }
+
+    > .plugin-boilerplate-fieldset{
+      float: none;
+      width: 100%;
+
+      > .plugin-boilerplate-help{
+        right: -5px;
+      }
+    }
+  }
+
+  + p.submit{
+    margin-top: 0;
+  }
+}
+
+.plugin-boilerplate-taxonomy-edit-fields{
+
+  > .plugin-boilerplate-field{
+    padding: 20px 0;
+
+    > .plugin-boilerplate-title{
+      width: 200px;
+
+      h4{
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 1.3;
+        display: inline-block;
+        vertical-align: middle;
+      }
+    }
+
+    > .plugin-boilerplate-fieldset{
+      width: calc(100% - 220px);
+
+      > .plugin-boilerplate-help{
+        top: -5px;
+        right: -5px;
+      }
+    }
+  }
+
+  > .plugin-boilerplate-field-submessage{
+    margin: 20px 0;
+  }
+
+  > .plugin-boilerplate-field-subheading,
+  > .plugin-boilerplate-field-heading{
+    margin: 20px 0;
+    border: 1px solid #ddd;
+  }
+}

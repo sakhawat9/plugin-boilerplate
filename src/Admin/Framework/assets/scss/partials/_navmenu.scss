@@ -1,0 +1,58 @@
+/**
+ * 08. Nav Menu
+ */
+.plugin-boilerplate-nav-menu-options{
+  clear: both;
+  float: left;
+  width: 100%;
+
+  > .plugin-boilerplate-fields{
+    margin: 10px -10px;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+
+    > .plugin-boilerplate-field{
+      padding: 12px;
+
+      .plugin-boilerplate-title{
+        float: none;
+        width: 100%;
+        margin-bottom: 5px;
+      }
+
+      .plugin-boilerplate-fieldset{
+        float: none;
+        width: 100%;
+      }
+    }
+  }
+
+  .plugin-boilerplate-field-text input{
+    width: 100%;
+  }
+
+  .plugin-boilerplate-field-notice .plugin-boilerplate-notice{
+    padding: 15px;
+  }
+}
+
+.plugin-boilerplate-nav-menu-title{
+  padding: 12px;
+  background-color: #f5f5f5;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+
+  &:first-child{
+    border-top: 0;
+  }
+
+  h4{
+    margin: 0;
+    padding: 0;
+    color: #23282d;
+  }
+}
+
+.plugin-boilerplate-nav-menu-icon{
+  margin-right: 5px;
+}

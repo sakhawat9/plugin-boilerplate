@@ -1,0 +1,19 @@
+{
+    "name": "themeatelier/plugin-boilerplate",
+    "description": "Plugin boilerplate description..",
+    "type": "wordpress-plugins",
+    "license": "GPL-2.0+",
+    "autoload": {
+        "psr-4": {
+            "ThemeAtelier\\PluginBoilerplate\\": "src/"
+        },
+        "files": [ "src/Helpers/helper-functions.php" ]
+    },
+    "authors": [
+        {
+            "name": "ThemeAtelier",
+            "email": "themeatelierbd@gmail.com"
+        }
+    ],
+    "require": {}
+}

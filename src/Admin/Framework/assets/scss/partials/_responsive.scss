@@ -1,0 +1,157 @@
+/**
+ * 12. Responsive
+ */
+@media only screen and (max-width:1200px){
+
+  .plugin-boilerplate-metabox{
+
+    .plugin-boilerplate-field{
+
+      .plugin-boilerplate-title{
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+
+      .plugin-boilerplate-fieldset{
+        float: none;
+        width: 100%;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width:782px){
+
+  .plugin-boilerplate-header-inner{
+    text-align: center;
+
+    h1{
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+
+  .plugin-boilerplate-form-result{
+    float: none;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .plugin-boilerplate-search,
+  .plugin-boilerplate-header-right,
+  .plugin-boilerplate-header-left{
+    width: 100%;
+  }
+
+  .plugin-boilerplate-search{
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .plugin-boilerplate-footer{
+    text-align: center;
+  }
+
+  .plugin-boilerplate-buttons{
+    float: none;
+  }
+
+  .plugin-boilerplate-copyright{
+    float: none;
+    margin-top: 10px;
+  }
+
+  .plugin-boilerplate-nav,
+  .plugin-boilerplate-expand-all,
+  .plugin-boilerplate-reset-section,
+  .plugin-boilerplate-nav-background{
+    display: none !important;
+  }
+
+  .plugin-boilerplate-nav-normal + .plugin-boilerplate-content{
+    margin-left: 0;
+  }
+
+  .plugin-boilerplate-section-title,
+  .plugin-boilerplate-section{
+    display: block !important;
+  }
+
+  .plugin-boilerplate-field{
+
+    .plugin-boilerplate-title{
+      float: none;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .plugin-boilerplate-fieldset{
+      float: none;
+      width: 100%;
+    }
+  }
+
+  .plugin-boilerplate-field-color{
+
+    .button.wp-picker-clear{
+      padding: 0 8px;
+      line-height: 2.14285714;
+      min-height: 32px;
+    }
+  }
+
+  .plugin-boilerplate-profile-options,
+  .plugin-boilerplate-taxonomy-edit-fields{
+
+    > .plugin-boilerplate-field{
+
+      > .plugin-boilerplate-title{
+        float: none;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+
+      > .plugin-boilerplate-fieldset{
+        float: none;
+        width: 100%;
+      }
+    }
+  }
+
+  .plugin-boilerplate-nav-menu-options{
+
+    > .plugin-boilerplate-fields{
+      margin-left: -10px;
+      margin-right: -10px;
+
+      > .plugin-boilerplate-field{
+        padding: 10px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 782px) {
+
+  .plugin-boilerplate-modal{
+
+    .plugin-boilerplate-modal-inner{
+      width: 90%;
+    }
+  }
+}
+
+@media only screen and (max-height: 750px) {
+
+  .plugin-boilerplate-modal{
+
+    .plugin-boilerplate-modal-inner{
+      height: auto;
+    }
+
+    .plugin-boilerplate-modal-content{
+      height: calc(100vh - 200px);
+    }
+  }
+}
