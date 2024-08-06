@@ -60,6 +60,10 @@ class Frontend
      */
     public static function enqueue_scripts()
     {
+        wp_enqueue_style('ico-font');
+        wp_enqueue_style('plugin-boilerplate-style');
+
+        wp_enqueue_script('plugin-boilerplate-script');
     }
 
     public function plugin_boilerplate_content()

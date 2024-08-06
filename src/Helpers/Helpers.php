@@ -51,13 +51,8 @@ class Helpers
     public function register_all_scripts()
     {
         wp_register_style('ico-font', PLUGIN_BOILERPLATE_ASSETS . 'css/icofont' . $this->min . '.css', array(), '1.0.0', 'all');
-        wp_register_style('sweetalert2', PLUGIN_BOILERPLATE_ASSETS . 'css/sweetalert2' . $this->min . '.css', array(), '1.0.0', 'all');
-        wp_register_style('bootstrap', PLUGIN_BOILERPLATE_ASSETS . 'css/bootstrap' . $this->min . '.css', array(), PLUGIN_BOILERPLATE_VERSION, 'all');
-        wp_register_style('responsive', PLUGIN_BOILERPLATE_ASSETS . 'css/responsive' . $this->min . '.css', array(), PLUGIN_BOILERPLATE_VERSION, 'all');
         wp_register_style('plugin-boilerplate-style', PLUGIN_BOILERPLATE_ASSETS . 'css/plugin-boilerplate-style' . $this->min . '.css', array(), PLUGIN_BOILERPLATE_VERSION, 'all');
 
-        wp_register_script('sweetalert2', PLUGIN_BOILERPLATE_ASSETS . 'js/sweetalert2' . $this->min . '.js', array('jquery'), '1.0.0', true);
-        wp_register_script('bootstrap', PLUGIN_BOILERPLATE_ASSETS . 'js/bootstrap' . $this->min . '.js', array('jquery'), '1.0.0', true);
-        wp_register_script('main', PLUGIN_BOILERPLATE_ASSETS . 'js/main' . $this->min . '.js', array('jquery'), PLUGIN_BOILERPLATE_VERSION, true);
+        wp_register_script('plugin-boilerplate-script', PLUGIN_BOILERPLATE_ASSETS . 'js/plugin-boilerplate-script' . $this->min . '.js', array('jquery'), PLUGIN_BOILERPLATE_VERSION, true);
     }
 }
