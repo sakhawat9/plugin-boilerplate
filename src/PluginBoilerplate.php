@@ -138,7 +138,7 @@ class PluginBoilerplate
     public function redirect_to($plugin)
     {
         if (PLUGIN_BOILERPLATE_BASENAME === $plugin) {
-            $redirect_url = esc_url(admin_url('?page=admin-settings'));
+            $redirect_url = esc_url(admin_url('admin.php?page=plugin-boilerplate'));
             exit(wp_kses_post(wp_safe_redirect($redirect_url)));
         }
     }
@@ -211,7 +211,7 @@ class PluginBoilerplate
     // Plugin settings in plugin list
     public function plugin_boilerplate_action_links(array $links)
     {
-        $url = get_admin_url() . "admin.php?page=admin-settings#tab=main-options";
+        $url = get_admin_url() . "admin.php?page=plugin-boilerplate#tab=main-options";
         $settings_link = '<a href="' . esc_url($url) . '">' . esc_html__('Settings', 'plugin-boilerplate') . '</a>';
         $links[] = $settings_link;
         return $links;
